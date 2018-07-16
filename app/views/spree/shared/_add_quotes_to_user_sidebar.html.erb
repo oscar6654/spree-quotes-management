@@ -41,10 +41,5 @@
 
   <%= stylesheet_link_tag 'spree/frontend/quotes/carousel' %>
 
-  <% if spree_current_user %>
 
-    <div id='user_quotes_new_form' class='row row-no-margin'>
-      <%= render partial: 'spree/quotes/form', locals: { quote: @quote } %>
-    </div>
-  <% end %>
 <% end %>
